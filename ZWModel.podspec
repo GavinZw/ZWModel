@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 spec.name         = 'ZWModel'
 spec.summary      = 'High performance model framework for iOS/OSX. The YYmodel renamed.'
-spec.version      = '0.0.1'
+spec.version      = '1.0.0'
 spec.license      =  { :type => 'MIT', :file => 'LICENSE' }
 spec.authors      = { 'gavin' => 'lovegavin@outlook.com' }
 spec.homepage     = 'https://github.com/GavinZw/ZWModel'
@@ -19,8 +19,8 @@ spec.ios.deployment_target = '8.0'
 spec.source       = { :git => 'https://github.com/GavinZw/ZWModel.git', :tag => spec.version }
 
 spec.requires_arc          = true
-spec.source_files = 'ZWModel/*.{h,m}'
-spec.public_header_files = 'ZWModel/*.{h}'
+spec.source_files = 'ZWModel/ZWModel/*.{h,m}'
+spec.public_header_files = 'ZWModel/ZWModel/*.{h}'
 
 spec.frameworks = 'Foundation'
 
