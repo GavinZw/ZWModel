@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09071E6EB7509C13A0D34CC1 /* libPods-ZWModelExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE13338961C92016587E7218 /* libPods-ZWModelExample.a */; };
+		866D68BC1E66681400A56790 /* ZWModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 866D68BA1E66681400A56790 /* ZWModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		866D68C41E66695600A56790 /* ZWClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 866D68C21E66695600A56790 /* ZWClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		866D68C51E66695600A56790 /* ZWClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 866D68C31E66695600A56790 /* ZWClassInfo.m */; };
+		866D68C81E666D0B00A56790 /* NSObject+ZWModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 866D68C61E666D0B00A56790 /* NSObject+ZWModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		866D68C91E666D0B00A56790 /* NSObject+ZWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 866D68C71E666D0B00A56790 /* NSObject+ZWModel.m */; };
+		866D68CC1E66769400A56790 /* ZWBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 866D68CA1E66769400A56790 /* ZWBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		866D68CD1E66769400A56790 /* ZWBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 866D68CB1E66769400A56790 /* ZWBaseModel.m */; };
+		866D68D61E667EA300A56790 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 866D68D51E667EA300A56790 /* main.m */; };
+		866D68D91E667EA300A56790 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 866D68D81E667EA300A56790 /* AppDelegate.m */; };
+		866D68DC1E667EA300A56790 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866D68DB1E667EA300A56790 /* ViewController.m */; };
+		866D68DF1E667EA300A56790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866D68DD1E667EA300A56790 /* Main.storyboard */; };
+		866D68E11E667EA300A56790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866D68E01E667EA300A56790 /* Assets.xcassets */; };
+		866D68E41E667EA300A56790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866D68E21E667EA300A56790 /* LaunchScreen.storyboard */; };
+		866D68EB1E667F0700A56790 /* ZWIMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 866D68EA1E667F0700A56790 /* ZWIMModel.m */; };
+		866D68EC1E6680AD00A56790 /* ZWModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866D68B71E66681400A56790 /* ZWModel.framework */; };
+		866D68EF1E66851000A56790 /* SkyTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 866D68EE1E66851000A56790 /* SkyTestModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14517AE919B710D78EDD2118 /* Pods-ZWModelExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWModelExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWModelExample/Pods-ZWModelExample.release.xcconfig"; sourceTree = "<group>"; };
+		866D68B71E66681400A56790 /* ZWModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZWModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		866D68BA1E66681400A56790 /* ZWModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWModel.h; sourceTree = "<group>"; };
+		866D68BB1E66681400A56790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866D68C21E66695600A56790 /* ZWClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWClassInfo.h; sourceTree = "<group>"; };
+		866D68C31E66695600A56790 /* ZWClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWClassInfo.m; sourceTree = "<group>"; };
+		866D68C61E666D0B00A56790 /* NSObject+ZWModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZWModel.h"; sourceTree = "<group>"; };
+		866D68C71E666D0B00A56790 /* NSObject+ZWModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZWModel.m"; sourceTree = "<group>"; };
+		866D68CA1E66769400A56790 /* ZWBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWBaseModel.h; sourceTree = "<group>"; };
+		866D68CB1E66769400A56790 /* ZWBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWBaseModel.m; sourceTree = "<group>"; };
+		866D68D21E667EA300A56790 /* ZWModelExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWModelExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		866D68D51E667EA300A56790 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		866D68D71E667EA300A56790 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		866D68D81E667EA300A56790 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		866D68DA1E667EA300A56790 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		866D68DB1E667EA300A56790 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		866D68DE1E667EA300A56790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		866D68E01E667EA300A56790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		866D68E31E667EA300A56790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		866D68E51E667EA300A56790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866D68E91E667F0700A56790 /* ZWIMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWIMModel.h; sourceTree = "<group>"; };
+		866D68EA1E667F0700A56790 /* ZWIMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWIMModel.m; sourceTree = "<group>"; };
+		866D68ED1E66851000A56790 /* SkyTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyTestModel.h; sourceTree = "<group>"; };
+		866D68EE1E66851000A56790 /* SkyTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyTestModel.m; sourceTree = "<group>"; };
+		BE13338961C92016587E7218 /* libPods-ZWModelExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZWModelExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC82A3A408BA9077916BFDD /* Pods-ZWModelExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWModelExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWModelExample/Pods-ZWModelExample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		866D68B31E66681400A56790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866D68CF1E667EA300A56790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866D68EC1E6680AD00A56790 /* ZWModel.framework in Frameworks */,
+				09071E6EB7509C13A0D34CC1 /* libPods-ZWModelExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86110CC61FBD21C04919B585 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBC82A3A408BA9077916BFDD /* Pods-ZWModelExample.debug.xcconfig */,
+				14517AE919B710D78EDD2118 /* Pods-ZWModelExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		866D68AD1E66681400A56790 = {
+			isa = PBXGroup;
+			children = (
+				866D68B91E66681400A56790 /* ZWModel */,
+				866D68D31E667EA300A56790 /* ZWModelExample */,
+				866D68B81E66681400A56790 /* Products */,
+				86110CC61FBD21C04919B585 /* Pods */,
+				DFEDA7C5BDBCDF9AC70F591D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		866D68B81E66681400A56790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				866D68B71E66681400A56790 /* ZWModel.framework */,
+				866D68D21E667EA300A56790 /* ZWModelExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		866D68B91E66681400A56790 /* ZWModel */ = {
+			isa = PBXGroup;
+			children = (
+				866D68BA1E66681400A56790 /* ZWModel.h */,
+				866D68C61E666D0B00A56790 /* NSObject+ZWModel.h */,
+				866D68C71E666D0B00A56790 /* NSObject+ZWModel.m */,
+				866D68C21E66695600A56790 /* ZWClassInfo.h */,
+				866D68C31E66695600A56790 /* ZWClassInfo.m */,
+				866D68CA1E66769400A56790 /* ZWBaseModel.h */,
+				866D68CB1E66769400A56790 /* ZWBaseModel.m */,
+				866D68BB1E66681400A56790 /* Info.plist */,
+			);
+			path = ZWModel;
+			sourceTree = "<group>";
+		};
+		866D68D31E667EA300A56790 /* ZWModelExample */ = {
+			isa = PBXGroup;
+			children = (
+				866D68D71E667EA300A56790 /* AppDelegate.h */,
+				866D68D81E667EA300A56790 /* AppDelegate.m */,
+				866D68DA1E667EA300A56790 /* ViewController.h */,
+				866D68DB1E667EA300A56790 /* ViewController.m */,
+				866D68E91E667F0700A56790 /* ZWIMModel.h */,
+				866D68EA1E667F0700A56790 /* ZWIMModel.m */,
+				866D68ED1E66851000A56790 /* SkyTestModel.h */,
+				866D68EE1E66851000A56790 /* SkyTestModel.m */,
+				866D68DD1E667EA300A56790 /* Main.storyboard */,
+				866D68E01E667EA300A56790 /* Assets.xcassets */,
+				866D68E21E667EA300A56790 /* LaunchScreen.storyboard */,
+				866D68E51E667EA300A56790 /* Info.plist */,
+				866D68D41E667EA300A56790 /* Supporting Files */,
+			);
+			path = ZWModelExample;
+			sourceTree = "<group>";
+		};
+		866D68D41E667EA300A56790 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				866D68D51E667EA300A56790 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFEDA7C5BDBCDF9AC70F591D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE13338961C92016587E7218 /* libPods-ZWModelExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		866D68B41E66681400A56790 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866D68CC1E66769400A56790 /* ZWBaseModel.h in Headers */,
+				866D68C41E66695600A56790 /* ZWClassInfo.h in Headers */,
+				866D68C81E666D0B00A56790 /* NSObject+ZWModel.h in Headers */,
+				866D68BC1E66681400A56790 /* ZWModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		866D68B61E66681400A56790 /* ZWModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866D68BF1E66681400A56790 /* Build configuration list for PBXNativeTarget "ZWModel" */;
+			buildPhases = (
+				866D68B21E66681400A56790 /* Sources */,
+				866D68B31E66681400A56790 /* Frameworks */,
+				866D68B41E66681400A56790 /* Headers */,
+				866D68B51E66681400A56790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWModel;
+			productName = ZWModel;
+			productReference = 866D68B71E66681400A56790 /* ZWModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		866D68D11E667EA300A56790 /* ZWModelExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866D68E61E667EA300A56790 /* Build configuration list for PBXNativeTarget "ZWModelExample" */;
+			buildPhases = (
+				C267FE8DE3CA469B6BF58F54 /* [CP] Check Pods Manifest.lock */,
+				866D68CE1E667EA300A56790 /* Sources */,
+				866D68CF1E667EA300A56790 /* Frameworks */,
+				866D68D01E667EA300A56790 /* Resources */,
+				60A12B69F55D9CF15402C526 /* [CP] Embed Pods Frameworks */,
+				B2890B9EDF3E53859C7002D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWModelExample;
+			productName = ZWModelExample;
+			productReference = 866D68D21E667EA300A56790 /* ZWModelExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		866D68AE1E66681400A56790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Gavin;
+				TargetAttributes = {
+					866D68B61E66681400A56790 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					866D68D11E667EA300A56790 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 866D68B11E66681400A56790 /* Build configuration list for PBXProject "ZWModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 866D68AD1E66681400A56790;
+			productRefGroup = 866D68B81E66681400A56790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				866D68B61E66681400A56790 /* ZWModel */,
+				866D68D11E667EA300A56790 /* ZWModelExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		866D68B51E66681400A56790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866D68D01E667EA300A56790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866D68E41E667EA300A56790 /* LaunchScreen.storyboard in Resources */,
+				866D68E11E667EA300A56790 /* Assets.xcassets in Resources */,
+				866D68DF1E667EA300A56790 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60A12B69F55D9CF15402C526 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWModelExample/Pods-ZWModelExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2890B9EDF3E53859C7002D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWModelExample/Pods-ZWModelExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C267FE8DE3CA469B6BF58F54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		866D68B21E66681400A56790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866D68CD1E66769400A56790 /* ZWBaseModel.m in Sources */,
+				866D68C91E666D0B00A56790 /* NSObject+ZWModel.m in Sources */,
+				866D68C51E66695600A56790 /* ZWClassInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866D68CE1E667EA300A56790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866D68DC1E667EA300A56790 /* ViewController.m in Sources */,
+				866D68EF1E66851000A56790 /* SkyTestModel.m in Sources */,
+				866D68D91E667EA300A56790 /* AppDelegate.m in Sources */,
+				866D68EB1E667F0700A56790 /* ZWIMModel.m in Sources */,
+				866D68D61E667EA300A56790 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		866D68DD1E667EA300A56790 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				866D68DE1E667EA300A56790 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		866D68E21E667EA300A56790 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				866D68E31E667EA300A56790 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		866D68BD1E66681400A56790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		866D68BE1E66681400A56790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		866D68C01E66681400A56790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZWModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gavin.ZWModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		866D68C11E66681400A56790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZWModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gavin.ZWModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		866D68E71E667EA300A56790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC82A3A408BA9077916BFDD /* Pods-ZWModelExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZWModelExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gavin.ZWModelExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		866D68E81E667EA300A56790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14517AE919B710D78EDD2118 /* Pods-ZWModelExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZWModelExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gavin.ZWModelExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		866D68B11E66681400A56790 /* Build configuration list for PBXProject "ZWModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866D68BD1E66681400A56790 /* Debug */,
+				866D68BE1E66681400A56790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866D68BF1E66681400A56790 /* Build configuration list for PBXNativeTarget "ZWModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866D68C01E66681400A56790 /* Debug */,
+				866D68C11E66681400A56790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866D68E61E667EA300A56790 /* Build configuration list for PBXNativeTarget "ZWModelExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866D68E71E667EA300A56790 /* Debug */,
+				866D68E81E667EA300A56790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 866D68AE1E66681400A56790 /* Project object */;
+}
