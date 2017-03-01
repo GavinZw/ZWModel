@@ -15,11 +15,8 @@ spec.authors      = { 'gavin' => 'lovegavin@outlook.com' }
 spec.homepage     = 'https://github.com/GavinZw/ZWModel'
 
 spec.ios.deployment_target = '8.0'
-spec.ios.deployment_target.osx.deployment_target = '10.7'
-spec.watchos.deployment_target = '2.0'
-spec.tvos.deployment_target = '9.0'
 
-spec.source       = { :git => 'https://github.com/GavinZw/ZWModel.git', :tag => spec.version.to_s }
+spec.source       = { :git => 'https://github.com/GavinZw/ZWModel.git', :tag => spec.version }
 
 spec.requires_arc          = true
 spec.source_files = 'ZWModel/*.{h,m}'
