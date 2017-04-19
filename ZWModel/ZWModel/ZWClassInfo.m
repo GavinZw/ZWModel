@@ -9,7 +9,7 @@
 #import "ZWClassInfo.h"
 #import <objc/runtime.h>
 
-ZWEncodingType YYEncodingGetType(const char *typeEncoding) {
+ZWEncodingType ZWEncodingGetType(const char *typeEncoding) {
   char *type = (char *)typeEncoding;
   if (!type) return ZWEncodingTypeUnknown;
   size_t len = strlen(type);
@@ -101,7 +101,7 @@ ZWEncodingType YYEncodingGetType(const char *typeEncoding) {
   const char *typeEncoding = ivar_getTypeEncoding(ivar);
   if (typeEncoding) {
     _typeEncoding = [NSString stringWithUTF8String:typeEncoding];
-    _type = YYEncodingGetType(typeEncoding);
+    _type = ZWEncodingGetType(typeEncoding);
   }
   return self;
 }
@@ -164,7 +164,7 @@ ZWEncodingType YYEncodingGetType(const char *typeEncoding) {
       case 'T': { // Type encoding
         if (attrs[i].value) {
           _typeEncoding = [NSString stringWithUTF8String:attrs[i].value];
-          type = YYEncodingGetType(attrs[i].value);
+          type = ZWEncodingGetType(attrs[i].value);
           
           if ((type & ZWEncodingTypeMask) == ZWEncodingTypeObject && _typeEncoding.length) {
             NSScanner *scanner = [NSScanner scannerWithString:_typeEncoding];
