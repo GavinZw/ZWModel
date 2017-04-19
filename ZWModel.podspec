@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 spec.name         = 'ZWModel'
 spec.summary      = 'High performance model framework for iOS/OSX. The YYmodel renamed.'
-spec.version      = '1.0.0'
+spec.version      = '1.0.1'
 spec.license      =  { :type => 'MIT', :file => 'LICENSE' }
 spec.authors      = { 'gavin' => 'lovegavin@outlook.com' }
 spec.homepage     = 'https://github.com/GavinZw/ZWModel'
